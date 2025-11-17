@@ -1,0 +1,25 @@
+{
+  "name": "discord-selfbot",
+  "version": "1.0.0",
+  "description": "Discord selfbot with custom RPC and streaming status",
+  "main": "RichPresence.js",
+  "scripts": {
+    "start": "node iRichPresence.js",
+    "dev": "node RichPresence.js"
+  },
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.7.1",
+    "dotenv": "^17.2.3"
+  },
+  "keywords": [
+    "discord",
+    "selfbot",
+    "rpc",
+    "streaming"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
